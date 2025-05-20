@@ -1,0 +1,86 @@
+
+body, html { /* Styles de base pout html et body pour s'assurer que l'interface utilisateur utilise
+    toute la hauteur disponible et utilise une police lisible */
+    height: 100%;
+    font-family: Arial;
+    /*Mise en page*/
+    display: flex;
+    /*Organiser les éléments en colonne */
+    flex-direction: column;
+
+ }
+
+
+.main {
+    display: flex;
+    flex: 1;
+    width: 85%; 
+    margin: 10px auto; /*Ajout des marges de 10% de chaque côté */
+
+}
+
+.content {
+    width: 95%;
+    padding: 20px;
+
+}
+
+a {
+    color: black;
+}
+
+header, footer {
+    background-color: grey; /*Couleur de fon du bouton */
+    color:whitesmoke;
+    padding: 0.5px; /*Espacement intérieur */
+    text-align: center;
+}
+
+header {
+    font-size: 10px;
+}
+
+footer {
+    font-size: 16px;
+}
+
+.image-container {
+    display: flex; /* Utiliser Flexbox pour aligner les images horizontalement */; 
+    gap: 10px; /* Espacement entre les images */
+}
+
+div.competences p::before {
+    content: "• ";
+  }
+
+  .containerloisirs {
+    width: 70%;
+    margin: auto; /*Centre le contenu horizontalement */
+
+}
+
+
+h2 {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.containerleftright {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px auto; /* Centre le contenu horizontalement */
+}
+
+.left {
+    width: 20%;
+    padding: 0;
+}
+
+.right {
+    width: 80%;
+    padding: 5px;
+}
